@@ -1,0 +1,16 @@
+baseURL = "https://taitcm.ch/blog/"
+title = "TAI TCM Clinic"
+theme = "hugo-bearblog"
+defaultContentLanguage = "de"
+
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    contentDir = "content/de"
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+
+[module]
+  [[module.imports]]
+    path = "github.com/hermanmartinussen/hugo-bearblog"
