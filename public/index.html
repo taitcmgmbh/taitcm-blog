@@ -1,13 +1,135 @@
-<div id="content-de">
-    <h1>Willkommen beim TAI TCM Blog</h1>
-    <ul>
-        <li><a href="de/migraene.html">Akupunktur bei Migräne: Eine natürliche Lösung</a></li>
-        </ul>
-</div>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAI TCM Blog | Akupunktur & Naturheilpraxis Zürich</title>
+    <style>
+        :root { --tcm-teal: #7fbbad; --tcm-dark: #1a5a7a; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; color: #333; scroll-behavior: smooth; }
+        header { background: #f8fbfb; padding: 30px 20px; text-align: center; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 100; }
+        .lang-switch { margin-bottom: 10px; font-weight: bold; }
+        .lang-switch a { text-decoration: none; color: var(--tcm-teal); margin: 0 10px; cursor: pointer; }
+        nav.category-nav { margin-top: 15px; font-size: 0.85em; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        nav.category-nav a { color: var(--tcm-dark); text-decoration: none; border-bottom: 1px dashed #ccc; padding: 2px 5px; }
 
-<div id="content-en" style="display:none;">
-    <h1>Welcome to TAI TCM Blog</h1>
-    <ul>
-        <li><a href="en/migraene.html">Acupuncture for Migraine: A Natural Solution</a></li>
-    </ul>
-</div>
+        .container { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
+        .category-title { margin: 50px 0 20px; color: var(--tcm-dark); border-left: 5px solid var(--tcm-teal); padding-left: 15px; text-transform: uppercase; font-size: 1.4em; }
+        
+        .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+        @media (max-width: 1024px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+        
+        .card { border: 1px solid #eee; border-radius: 8px; overflow: hidden; transition: 0.2s; text-decoration: none; color: inherit; display: flex; flex-direction: column; background: #fff; }
+        .card:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .card img { width: 100%; height: 150px; object-fit: cover; background: #f0f0f0; }
+        .card-body { padding: 12px; flex-grow: 1; }
+        .card-body h3 { margin: 0 0 8px 0; font-size: 0.95em; color: var(--tcm-dark); text-transform: uppercase; }
+        .card-body p { margin: 0; font-size: 0.8em; color: #666; line-height: 1.4; }
+        footer { text-align: center; padding: 40px; color: #999; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="lang-switch">
+        <a onclick="switchLang('de')">DEUTSCH</a> | <a onclick="switchLang('en')">ENGLISH</a>
+    </div>
+    <h1 id="main-title">Willkommen beim TAI TCM Blog</h1>
+    <nav class="category-nav" id="cat-nav"></nav>
+</header>
+
+<div class="container" id="main-content"></div>
+
+<footer>&copy; 2026 TAI TCM Clinic Zürich</footer>
+
+<script>
+    const data = {
+        de: {
+            title: "Willkommen beim TAI TCM Blog",
+            categories: [
+                { name: "Neurologische Erkrankungen", id: "neu", items: [
+                    { name: "Migräne", url: "de/migraene.html", img: "migraene.webp", desc: "Natürliche Hilfe bei chronischer Migräne." },
+                    { name: "Kopfschmerzen", url: "de/kopfschmerzen.html", img: "kopfschmerzen.webp", desc: "TCM-Therapie gegen Spannungskopfschmerz." },
+                    { name: "Schwindel", url: "de/schwindel.html", img: "schwindel.webp", desc: "Gleichgewichtsstörungen ganzheitlich behandeln." },
+                    { name: "Tinnitus", url: "de/tinnitus.html", img: "tinnitus.webp", desc: "Linderung von Ohrgeräuschen durch Akupunktur." }
+                ]},
+                { name: "Orthopädische Erkrankungen", id: "ort", items: [
+                    { name: "Rückenschmerzen", url: "de/rueckenschmerzen.html", img: "rueckenschmerzen.webp", desc: "Effektive Behandlung von Rückenbeschwerden." },
+                    { name: "Ischias", url: "de/ischiasbeschwerden.html", img: "ischiasbeschwerden.webp", desc: "Hilfe bei Ischiasschmerz und Ausstrahlungen." },
+                    { name: "Arthritis", url: "de/arthritis.html", img: "arthritis.webp", desc: "Gelenkentzündungen natürlich therapieren." },
+                    { name: "Tennis-Arm", url: "de/tennis-arm.html", img: "tennis-arm.webp", desc: "Schmerzlinderung bei Sehnenreizungen." }
+                ]},
+                { name: "Innere Krankheiten", id: "inn", items: [
+                    { name: "Heuschnupfen", url: "de/heuschnupfen.html", img: "heuschnupfen.webp", desc: "Immunsystem stärken gegen Pollenallergie." },
+                    { name: "Asthma", url: "de/asthma.html", img: "asthma.webp", desc: "Atemwegsbeschwerden mit TCM begleiten." },
+                    { name: "Verstopfung", url: "de/verstopfung.html", img: "verstopfung.webp", desc: "Verdauung sanft und natürlich regulieren." },
+                    { name: "Reizdarm", url: "de/reizdarm.html", img: "reizdarm.webp", desc: "Harmonisierung des Magen-Darm-Traktes." }
+                ]},
+                { name: "Gynäkologie", id: "gyn", items: [
+                    { name: "Unfruchtbarkeit", url: "de/unfruchtbarkeit.html", img: "unfruchtbarkeit.webp", desc: "Kinderwunsch-Begleitung durch Akupunktur." },
+                    { name: "Menstruationsbeschwerden", url: "de/menstruationsbeschwerden.html", img: "menstruationsbeschwerden.webp", desc: "Zyklusregulierung und Schmerzhilfe." },
+                    { name: "Wechseljahre", url: "de/wechseljahresbeschwerden.html", img: "wechseljahresbeschwerden.webp", desc: "Beschwerden in der Menopause lindern." }
+                ]},
+                { name: "Psychische Erkrankungen", id: "psy", items: [
+                    { name: "Schlafstörung", url: "de/schlafstoerung.html", img: "schlafstoerung.webp", desc: "Besser ein- und durchschlafen mit TCM." },
+                    { name: "Burn-out", url: "de/burn-out-syndrom.html", img: "burn-out-syndrom.webp", desc: "Erschöpfungszustände ganzheitlich behandeln." }
+                ]}
+            ]
+        },
+        en: {
+            title: "Welcome to TAI TCM Blog",
+            categories: [
+                { name: "Neurological Conditions", id: "neu", items: [
+                    { name: "Migraine", url: "en/migraine.html", img: "migraine.webp", desc: "Natural relief for chronic migraines." },
+                    { name: "Headaches", url: "en/headaches.html", img: "headaches.webp", desc: "TCM therapy for tension headaches." },
+                    { name: "Dizziness", url: "en/dizziness.html", img: "dizziness.webp", desc: "Treating balance disorders holistically." },
+                    { name: "Tinnitus", url: "en/tinnitus.html", img: "tinnitus.webp", desc: "Acupuncture to relieve ringing in ears." }
+                ]},
+                { name: "Orthopaedic Conditions", id: "ort", items: [
+                    { name: "Back Pain", url: "en/back-pain.html", img: "back-pain.webp", desc: "Effective treatment for back problems." },
+                    { name: "Sciatica", url: "en/sciatica.html", img: "sciatica.webp", desc: "Help for sciatic nerve pain and numbness." },
+                    { name: "Arthritis", url: "en/arthritis.html", img: "arthritis.webp", desc: "Natural therapy for joint inflammation." },
+                    { name: "Tennis Elbow", url: "en/tennis-elbow.html", img: "tennis-elbow.webp", desc: "Pain relief for tendon irritation." }
+                ]},
+                { name: "Internal Medicine", id: "inn", items: [
+                    { name: "Hay Fever", url: "en/hay-fever.html", img: "hay-fever.webp", desc: "Strengthen immune system against allergies." },
+                    { name: "Asthma", url: "en/asthma.html", img: "asthma.webp", desc: "Supporting respiratory health with TCM." },
+                    { name: "Constipation", url: "en/constipation.html", img: "constipation.webp", desc: "Regulating digestion gently and naturally." },
+                    { name: "Irritable Bowel", url: "en/irritable-bowel-syndrome.html", img: "irritable-bowel-syndrome.webp", desc: "Harmonizing the gastrointestinal tract." }
+                ]},
+                { name: "Gynaecology", id: "gyn", items: [
+                    { name: "Infertility", url: "en/infertility.html", img: "infertility.webp", desc: "Fertility support through acupuncture." },
+                    { name: "Menstrual Discomfort", url: "en/menstrual-discomfort.html", img: "menstrual-discomfort.webp", desc: "Cycle regulation and pain relief." },
+                    { name: "Menopause", url: "en/menopausal-symptoms.html", img: "menopausal-symptoms.webp", desc: "Relieving menopausal symptoms." }
+                ]},
+                { name: "Mental Health", id: "psy", items: [
+                    { name: "Sleep Disorders", url: "en/sleep-disorders.html", img: "sleep-disorders.webp", desc: "Improve sleep quality with TCM." },
+                    { name: "Burnout", url: "en/burnout.html", img: "burnout.webp", desc: "Treating exhaustion states holistically." }
+                ]}
+            ]
+        }
+    };
+
+    function render(lang) {
+        const content = data[lang];
+        document.getElementById('main-title').innerText = content.title;
+        document.getElementById('cat-nav').innerHTML = content.categories.map(c => `<a href="#${c.id}">${c.name}</a>`).join('');
+        document.getElementById('main-content').innerHTML = content.categories.map(cat => `
+            <h2 class="category-title" id="${cat.id}">${cat.name}</h2>
+            <div class="grid">${cat.items.map(item => `
+                <a href="${item.url}" class="card">
+                    <img src="img/${item.img}" alt="${item.name}" loading="lazy">
+                    <div class="card-body">
+                        <h3>${item.name}</h3>
+                        <p>${item.desc}</p>
+                    </div>
+                </a>`).join('')}
+            </div>`).join('');
+    }
+
+    function switchLang(lang) { render(lang); window.scrollTo(0, 0); }
+    render('de');
+</script>
+</body>
+</html>
