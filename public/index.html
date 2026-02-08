@@ -3,109 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TAI TCM Blog | Akupunktur & Naturheilpraxis Zürich</title>
+    <title>TAI TCM Blog | Spezialgebiete TCM Zürich</title>
     <style>
         :root { --tcm-teal: #7fbbad; --tcm-dark: #1a5a7a; }
-        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; color: #333; scroll-behavior: smooth; }
-        header { background: #f8fbfb; padding: 30px 20px; text-align: center; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 100; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; color: #333; scroll-behavior: smooth; background: #fff; }
+        header { background: #f8fbfb; padding: 25px 20px; text-align: center; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 100; }
         .lang-switch { margin-bottom: 10px; font-weight: bold; }
-        .lang-switch a { text-decoration: none; color: var(--tcm-teal); margin: 0 10px; cursor: pointer; }
-        nav.category-nav { margin-top: 15px; font-size: 0.85em; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-        nav.category-nav a { color: var(--tcm-dark); text-decoration: none; border-bottom: 1px dashed #ccc; padding: 2px 5px; }
+        .lang-switch a { text-decoration: none; color: var(--tcm-teal); margin: 0 10px; cursor: pointer; border: 1px solid var(--tcm-teal); padding: 2px 8px; border-radius: 4px; }
+        
+        nav.category-nav { margin-top: 15px; font-size: 0.8em; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+        nav.category-nav a { color: var(--tcm-dark); text-decoration: none; background: #fff; border: 1px solid #ddd; padding: 4px 10px; border-radius: 20px; }
+        nav.category-nav a:hover { background: var(--tcm-teal); color: #fff; border-color: var(--tcm-teal); }
 
         .container { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
-        .category-title { margin: 50px 0 20px; color: var(--tcm-dark); border-left: 5px solid var(--tcm-teal); padding-left: 15px; text-transform: uppercase; font-size: 1.4em; }
+        .category-group { margin-bottom: 60px; }
+        .category-title { margin: 40px 0 20px; color: var(--tcm-dark); border-left: 6px solid var(--tcm-teal); padding-left: 15px; text-transform: uppercase; font-size: 1.3em; letter-spacing: 1px; }
         
         .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
         @media (max-width: 1024px) { .grid { grid-template-columns: repeat(2, 1fr); } }
         @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
         
-        .card { border: 1px solid #eee; border-radius: 8px; overflow: hidden; transition: 0.2s; text-decoration: none; color: inherit; display: flex; flex-direction: column; background: #fff; }
-        .card:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        .card img { width: 100%; height: 150px; object-fit: cover; background: #f0f0f0; }
-        .card-body { padding: 12px; flex-grow: 1; }
-        .card-body h3 { margin: 0 0 8px 0; font-size: 0.95em; color: var(--tcm-dark); text-transform: uppercase; }
-        .card-body p { margin: 0; font-size: 0.8em; color: #666; line-height: 1.4; }
-        footer { text-align: center; padding: 40px; color: #999; font-size: 0.8em; }
+        .card { border: 1px solid #eee; border-radius: 8px; overflow: hidden; transition: 0.3s; text-decoration: none; color: inherit; display: flex; flex-direction: column; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.08); }
+        .card img { width: 100%; height: 160px; object-fit: cover; background: #f9f9f9; }
+        .card-body { padding: 15px; flex-grow: 1; border-top: 1px solid #f5f5f5; }
+        .card-body h3 { margin: 0 0 8px 0; font-size: 0.9em; color: var(--tcm-dark); text-transform: uppercase; line-height: 1.2; }
+        .card-body p { margin: 0; font-size: 0.85em; color: #666; line-height: 1.5; }
+        footer { text-align: center; padding: 60px 20px; color: #999; font-size: 0.85em; background: #fdfdfd; border-top: 1px solid #eee; }
     </style>
 </head>
 <body>
 
 <header>
     <div class="lang-switch">
-        <a onclick="switchLang('de')">DEUTSCH</a> | <a onclick="switchLang('en')">ENGLISH</a>
+        <a onclick="switchLang('de')">DEUTSCH</a>
+        <a onclick="switchLang('en')">ENGLISH</a>
     </div>
-    <h1 id="main-title">Willkommen beim TAI TCM Blog</h1>
+    <h1 id="main-title" style="font-size: 1.5em; color: var(--tcm-dark); margin: 10px 0;">Spezialgebiete TCM</h1>
     <nav class="category-nav" id="cat-nav"></nav>
 </header>
 
 <div class="container" id="main-content"></div>
 
-<footer>&copy; 2026 TAI TCM Clinic Zürich</footer>
+<footer>
+    &copy; 2026 TAI TCM Clinic Zürich | Kompetenz in Traditioneller Chinesischer Medizin
+</footer>
 
 <script>
     const data = {
         de: {
-            title: "Willkommen beim TAI TCM Blog",
+            title: "Spezialgebiete TCM bei folgenden Beschwerden:",
             categories: [
                 { name: "Neurologische Erkrankungen", id: "neu", items: [
-                    { name: "Migräne", url: "de/migraene.html", img: "migraene.webp", desc: "Natürliche Hilfe bei chronischer Migräne." },
-                    { name: "Kopfschmerzen", url: "de/kopfschmerzen.html", img: "kopfschmerzen.webp", desc: "TCM-Therapie gegen Spannungskopfschmerz." },
-                    { name: "Schwindel", url: "de/schwindel.html", img: "schwindel.webp", desc: "Gleichgewichtsstörungen ganzheitlich behandeln." },
-                    { name: "Tinnitus", url: "de/tinnitus.html", img: "tinnitus.webp", desc: "Linderung von Ohrgeräuschen durch Akupunktur." }
+                    { name: "Migräne", url: "de/migraene.html", img: "migraene.webp", desc: "Effektive Akupunktur bei chronischer Migräne." },
+                    { name: "Kopfschmerzen", url: "de/kopfschmerzen.html", img: "kopfschmerzen.webp", desc: "Ganzheitliche Hilfe bei Spannungskopfschmerzen." },
+                    { name: "Schwindel", url: "de/schwindel.html", img: "schwindel.webp", desc: "TCM-Therapie bei Gleichgewichtsstörungen." },
+                    { name: "Tinnitus", url: "de/tinnitus.html", img: "tinnitus.webp", desc: "Natürliche Ansätze zur Linderung von Ohrgeräuschen." },
+                    { name: "Trigeminusneuralgie", url: "de/trigeminusneuralgie.html", img: "trigeminusneuralgie.webp", desc: "Schmerztherapie bei Gesichtsschmerzen." },
+                    { name: "Lähmung nach Schlaganfall", url: "de/schlaganfall-laehmung.html", img: "schlaganfall-laehmung.webp", desc: "Rehabilitation und Unterstützung der Motorik." },
+                    { name: "Blasenentleerungsstörung", url: "de/blasenentleerungsstoerung.html", img: "blasenentleerungsstoerung.webp", desc: "TCM-Regulierung der Blasenfunktion." },
+                    { name: "Blasenschwäche", url: "de/blasenschwaeche.html", img: "blasenschwaeche.webp", desc: "Stärkung der Blasenmuskulatur und -kontrolle." }
                 ]},
                 { name: "Orthopädische Erkrankungen", id: "ort", items: [
-                    { name: "Rückenschmerzen", url: "de/rueckenschmerzen.html", img: "rueckenschmerzen.webp", desc: "Effektive Behandlung von Rückenbeschwerden." },
-                    { name: "Ischias", url: "de/ischiasbeschwerden.html", img: "ischiasbeschwerden.webp", desc: "Hilfe bei Ischiasschmerz und Ausstrahlungen." },
-                    { name: "Arthritis", url: "de/arthritis.html", img: "arthritis.webp", desc: "Gelenkentzündungen natürlich therapieren." },
-                    { name: "Tennis-Arm", url: "de/tennis-arm.html", img: "tennis-arm.webp", desc: "Schmerzlinderung bei Sehnenreizungen." }
+                    { name: "Lumbalgie", url: "de/lumbalgie.html", img: "lumbalgie.webp", desc: "Gezielte Hilfe bei Schmerzen im unteren Rücken." },
+                    { name: "Rückenschmerzen", url: "de/rueckenschmerzen.html", img: "rueckenschmerzen.webp", desc: "Behandlung von Verspannungen und Wirbelsäulenproblemen." },
+                    { name: "Ischiasbeschwerden", url: "de/ischiasbeschwerden.html", img: "ischiasbeschwerden.webp", desc: "Linderung von Nervenschmerzen und Ausstrahlungen." },
+                    { name: "Nacken-Schulter-Arm", url: "de/nacken-schulter-arm-syndrom.html", img: "nacken-schulter-arm.webp", desc: "Hilfe bei Steifheit und Schmerzen im Oberkörper." },
+                    { name: "Tennis-Arm", url: "de/tennis-arm.html", img: "tennis-arm.webp", desc: "Therapie bei Epicondylitis und Sehnenreizungen." },
+                    { name: "Arthritis / Arthrose", url: "de/arthritis.html", img: "arthritis.webp", desc: "Behandlung von Gelenkentzündungen und Verschleiß." },
+                    { name: "Rheuma", url: "de/rheuma.html", img: "rheuma.webp", desc: "Ganzheitliche Begleitung bei rheumatischen Erkrankungen." },
+                    { name: "Achillessehnen-Symptome", url: "de/achillessehnen-symptome.html", img: "achillessehnen.webp", desc: "Heilungsförderung bei Sehnenbeschwerden." },
+                    { name: "Fersenschmerz", url: "de/fersenschmerz.html", img: "fersenschmerz.webp", desc: "Hilfe bei Fersensporn und Belastungsschmerz." }
                 ]},
                 { name: "Innere Krankheiten", id: "inn", items: [
-                    { name: "Heuschnupfen", url: "de/heuschnupfen.html", img: "heuschnupfen.webp", desc: "Immunsystem stärken gegen Pollenallergie." },
-                    { name: "Asthma", url: "de/asthma.html", img: "asthma.webp", desc: "Atemwegsbeschwerden mit TCM begleiten." },
-                    { name: "Verstopfung", url: "de/verstopfung.html", img: "verstopfung.webp", desc: "Verdauung sanft und natürlich regulieren." },
-                    { name: "Reizdarm", url: "de/reizdarm.html", img: "reizdarm.webp", desc: "Harmonisierung des Magen-Darm-Traktes." }
+                    { name: "Bronchitis / Asthma", url: "de/bronchitis.html", img: "bronchitis.webp", desc: "Stärkung der Lungenfunktion und Atemwege." },
+                    { name: "Harnwegsinfekte", url: "de/harnwegsinfekte.html", img: "harnwegsinfekte.webp", desc: "Natürliche Behandlung von Blasenentzündungen." },
+                    { name: "Herzrhythmusstörungen", url: "de/herzrhythmusstoerungen.html", img: "herz.webp", desc: "Harmonisierung des Herz-Qi und Beruhigung." },
+                    { name: "Bluthochdruck", url: "de/bluthochdruck.html", img: "bluthochdruck.webp", desc: "Unterstützende Regulation des Blutdrucks." },
+                    { name: "Verdauungsleiden", url: "de/magenleiden.html", img: "magen.webp", desc: "Hilfe bei Blähungen, Übelkeit und Reizdarm." }
                 ]},
-                { name: "Gynäkologie", id: "gyn", items: [
-                    { name: "Unfruchtbarkeit", url: "de/unfruchtbarkeit.html", img: "unfruchtbarkeit.webp", desc: "Kinderwunsch-Begleitung durch Akupunktur." },
-                    { name: "Menstruationsbeschwerden", url: "de/menstruationsbeschwerden.html", img: "menstruationsbeschwerden.webp", desc: "Zyklusregulierung und Schmerzhilfe." },
-                    { name: "Wechseljahre", url: "de/wechseljahresbeschwerden.html", img: "wechseljahresbeschwerden.webp", desc: "Beschwerden in der Menopause lindern." }
+                { name: "Gynäkologische Erkrankungen", id: "gyn", items: [
+                    { name: "Menstruationsbeschwerden", url: "de/menstruationsbeschwerden.html", img: "menstruation.webp", desc: "Hilfe bei Schmerzen und Zyklusunregelmäßigkeiten." },
+                    { name: "Schwangerschaft", url: "de/schwangerschaftsbeschwerden.html", img: "schwangerschaft.webp", desc: "Begleitung und Vorbereitung auf die Geburt." },
+                    { name: "Unfruchtbarkeit", url: "de/unfruchtbarkeit.html", img: "unfruchtbarkeit.webp", desc: "Natürliche Unterstützung bei Kinderwunsch." },
+                    { name: "Wechseljahre", url: "de/wechseljahresbeschwerden.html", img: "wechseljahre.webp", desc: "Linderung von Hitzewallungen und Symptomen." }
                 ]},
                 { name: "Psychische Erkrankungen", id: "psy", items: [
-                    { name: "Schlafstörung", url: "de/schlafstoerung.html", img: "schlafstoerung.webp", desc: "Besser ein- und durchschlafen mit TCM." },
-                    { name: "Burn-out", url: "de/burn-out-syndrom.html", img: "burn-out-syndrom.webp", desc: "Erschöpfungszustände ganzheitlich behandeln." }
+                    { name: "Depression", url: "de/depression.html", img: "depression.webp", desc: "Stimmungsaufhellung und energetische Balance." },
+                    { name: "Schlafstörung", url: "de/schlafstoerung.html", img: "schlafstoerung.webp", desc: "Besser ein- und durchschlafen mit Akupunktur." },
+                    { name: "Burn-out-Syndrom", url: "de/burn-out-syndrom.html", img: "burnout.webp", desc: "Regeneration bei tiefer Erschöpfung." }
+                ]},
+                { name: "Allergie / Hauterkrankungen", id: "haut", items: [
+                    { name: "Heuschnupfen", url: "de/heuschnupfen.html", img: "heuschnupfen.webp", desc: "Symptomlinderung bei Pollenallergie." },
+                    { name: "Neurodermitis / Ekzem", url: "de/neurodermitis.html", img: "haut.webp", desc: "Hautberuhigung und Stärkung der Barriere." },
+                    { name: "Akne / Psoriasis", url: "de/akne.html", img: "akne.webp", desc: "Ganzheitliche Behandlung von Hautproblemen." }
+                ]},
+                { name: "Sonstiges", id: "sonst", items: [
+                    { name: "Nikotinentwöhnung", url: "de/nikotinentwoehnung.html", img: "rauchen.webp", desc: "Unterstützung beim Rauchstopp." },
+                    { name: "Übergewicht", url: "de/uebergewicht.html", img: "gewicht.webp", desc: "Stoffwechselaktivierung zur Gewichtsreduktion." },
+                    { name: "Immunsystem", url: "de/immunsystem.html", img: "immun.webp", desc: "Allgemeine Stärkung der Abwehrkräfte." }
                 ]}
             ]
         },
         en: {
-            title: "Welcome to TAI TCM Blog",
+            title: "TCM specialities for the following conditions:",
             categories: [
-                { name: "Neurological Conditions", id: "neu", items: [
-                    { name: "Migraine", url: "en/migraine.html", img: "migraine.webp", desc: "Natural relief for chronic migraines." },
-                    { name: "Headaches", url: "en/headaches.html", img: "headaches.webp", desc: "TCM therapy for tension headaches." },
-                    { name: "Dizziness", url: "en/dizziness.html", img: "dizziness.webp", desc: "Treating balance disorders holistically." },
-                    { name: "Tinnitus", url: "en/tinnitus.html", img: "tinnitus.webp", desc: "Acupuncture to relieve ringing in ears." }
+                { name: "Neurological conditions", id: "neu", items: [
+                    { name: "Migraine", url: "en/migraine.html", img: "migraene.webp", desc: "Effective acupuncture for chronic migraines." },
+                    { name: "Headaches", url: "en/headaches.html", img: "kopfschmerzen.webp", desc: "Holistic relief for tension headaches." },
+                    { name: "Dizziness", url: "en/dizziness.html", img: "schwindel.webp", desc: "TCM therapy for balance disorders." },
+                    { name: "Tinnitus", url: "en/tinnitus.html", img: "tinnitus.webp", desc: "Natural approaches to reducing ear ringing." },
+                    { name: "Trigeminal neuralgia", url: "en/trigeminal-neuralgia.html", img: "trigeminusneuralgie.webp", desc: "Pain therapy for facial nerve pain." },
+                    { name: "Post-stroke paralysis", url: "en/post-stroke-paralysis.html", img: "schlaganfall-laehmung.webp", desc: "Supporting motor skill recovery." }
                 ]},
-                { name: "Orthopaedic Conditions", id: "ort", items: [
-                    { name: "Back Pain", url: "en/back-pain.html", img: "back-pain.webp", desc: "Effective treatment for back problems." },
-                    { name: "Sciatica", url: "en/sciatica.html", img: "sciatica.webp", desc: "Help for sciatic nerve pain and numbness." },
-                    { name: "Arthritis", url: "en/arthritis.html", img: "arthritis.webp", desc: "Natural therapy for joint inflammation." },
-                    { name: "Tennis Elbow", url: "en/tennis-elbow.html", img: "tennis-elbow.webp", desc: "Pain relief for tendon irritation." }
+                { name: "Orthopaedic conditions", id: "ort", items: [
+                    { name: "Low back pain", url: "en/low-back-pain.html", img: "lumbalgie.webp", desc: "Targeted relief for lower back issues." },
+                    { name: "Back pain", url: "en/back-pain.html", img: "rueckenschmerzen.webp", desc: "Treating spinal tension and discomfort." },
+                    { name: "Sciatica", url: "en/sciatica.html", img: "ischiasbeschwerden.webp", desc: "Relieving nerve pain and radiating symptoms." },
+                    { name: "Arthritis / Rheumatic", url: "en/arthritis.html", img: "arthritis.webp", desc: "Natural joint and inflammation therapy." }
                 ]},
-                { name: "Internal Medicine", id: "inn", items: [
-                    { name: "Hay Fever", url: "en/hay-fever.html", img: "hay-fever.webp", desc: "Strengthen immune system against allergies." },
-                    { name: "Asthma", url: "en/asthma.html", img: "asthma.webp", desc: "Supporting respiratory health with TCM." },
-                    { name: "Constipation", url: "en/constipation.html", img: "constipation.webp", desc: "Regulating digestion gently and naturally." },
-                    { name: "Irritable Bowel", url: "en/irritable-bowel-syndrome.html", img: "irritable-bowel-syndrome.webp", desc: "Harmonizing the gastrointestinal tract." }
+                { name: "Internal medicine", id: "inn", items: [
+                    { name: "Bronchitis / Asthma", url: "en/bronchitis.html", img: "bronchitis.webp", desc: "Strengthening respiratory functions." },
+                    { name: "Hypertension", url: "en/hypertension.html", img: "bluthochdruck.webp", desc: "Supporting blood pressure regulation." },
+                    { name: "Digestive disorders", url: "en/digestive-disorders.html", img: "magen.webp", desc: "Help for bloating, nausea and IBS." }
                 ]},
-                { name: "Gynaecology", id: "gyn", items: [
-                    { name: "Infertility", url: "en/infertility.html", img: "infertility.webp", desc: "Fertility support through acupuncture." },
-                    { name: "Menstrual Discomfort", url: "en/menstrual-discomfort.html", img: "menstrual-discomfort.webp", desc: "Cycle regulation and pain relief." },
-                    { name: "Menopause", url: "en/menopausal-symptoms.html", img: "menopausal-symptoms.webp", desc: "Relieving menopausal symptoms." }
+                { name: "Gynaecological conditions", id: "gyn", items: [
+                    { name: "Infertility", url: "en/infertility.html", img: "unfruchtbarkeit.webp", desc: "Natural support for fertility journeys." },
+                    { name: "Menstrual discomfort", url: "en/menstrual-discomfort.html", img: "menstruation.webp", desc: "Relief for cycle-related pain." },
+                    { name: "Menopausal symptoms", url: "en/menopausal-symptoms.html", img: "wechseljahre.webp", desc: "Easing hot flashes and hormonal shifts." }
                 ]},
-                { name: "Mental Health", id: "psy", items: [
-                    { name: "Sleep Disorders", url: "en/sleep-disorders.html", img: "sleep-disorders.webp", desc: "Improve sleep quality with TCM." },
-                    { name: "Burnout", url: "en/burnout.html", img: "burnout.webp", desc: "Treating exhaustion states holistically." }
+                { name: "Mental health", id: "psy", items: [
+                    { name: "Depression", url: "en/depression.html", img: "depression.webp", desc: "Emotional balancing and mood support." },
+                    { name: "Sleep disorders", url: "en/sleep-disorders.html", img: "schlafstoerung.webp", desc: "Improving sleep quality with acupuncture." },
+                    { name: "Burnout", url: "en/burnout.html", img: "burnout.webp", desc: "Recovery from deep exhaustion." }
+                ]},
+                { name: "Allergy & Skin", id: "haut", items: [
+                    { name: "Hay fever", url: "en/hay-fever.html", img: "heuschnupfen.webp", desc: "Symptom relief for pollen allergies." },
+                    { name: "Eczema / Acne", url: "en/eczema.html", img: "haut.webp", desc: "Holistic skin healing and balancing." }
+                ]},
+                { name: "Other", id: "sonst", items: [
+                    { name: "Smoking cessation", url: "en/smoking-cessation.html", img: "rauchen.webp", desc: "Supportive care for quitting smoking." },
+                    { name: "Overweight", url: "en/overweight.html", img: "gewicht.webp", desc: "Metabolism activation for weight loss." }
                 ]}
             ]
         }
@@ -116,15 +154,17 @@
         document.getElementById('main-title').innerText = content.title;
         document.getElementById('cat-nav').innerHTML = content.categories.map(c => `<a href="#${c.id}">${c.name}</a>`).join('');
         document.getElementById('main-content').innerHTML = content.categories.map(cat => `
-            <h2 class="category-title" id="${cat.id}">${cat.name}</h2>
-            <div class="grid">${cat.items.map(item => `
-                <a href="${item.url}" class="card">
-                    <img src="img/${item.img}" alt="${item.name}" loading="lazy">
-                    <div class="card-body">
-                        <h3>${item.name}</h3>
-                        <p>${item.desc}</p>
-                    </div>
-                </a>`).join('')}
+            <div class="category-group">
+                <h2 class="category-title" id="${cat.id}">${cat.name}</h2>
+                <div class="grid">${cat.items.map(item => `
+                    <a href="${item.url}" class="card">
+                        <img src="img/${item.img}" alt="${item.name}" loading="lazy">
+                        <div class="card-body">
+                            <h3>${item.name}</h3>
+                            <p>${item.desc}</p>
+                        </div>
+                    </a>`).join('')}
+                </div>
             </div>`).join('');
     }
 
