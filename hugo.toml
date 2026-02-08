@@ -1,6 +1,6 @@
 baseURL = "https://taitcm.ch/blog/"
 title = "TAI TCM Clinic"
-theme = "hugo-bearblog"
+theme = "hugo-bearblog"  # 只是个名字，我们会手动补齐文件夹
 defaultContentLanguage = "de"
 
 [languages]
@@ -10,7 +10,3 @@ defaultContentLanguage = "de"
   [languages.en]
     languageName = "English"
     contentDir = "content/en"
-
-[module]
-  [[module.imports]]
-    path = "github.com/hermanmartinussen/hugo-bearblog"
