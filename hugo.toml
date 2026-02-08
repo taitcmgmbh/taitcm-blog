@@ -1,6 +1,6 @@
 baseURL = "https://taitcm.ch/blog/"
 title = "TAI TCM Clinic"
-theme = "hugo-bearblog"  # 只是个名字，我们会手动补齐文件夹
+theme = "hugo-bearblog"
 defaultContentLanguage = "de"
 
 [languages]
