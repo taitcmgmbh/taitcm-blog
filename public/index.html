@@ -1,2 +1,39 @@
-<h1>TAI TCM Blog 正在维护中</h1>
-<p>德语 (DE) | English (EN)</p>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>TAI TCM Blog | Akupunktur & Naturheilpraxis Zürich</title>
+    <meta name="description" content="TAI TCM Blog - Expertise in Traditional Chinese Medicine, Acupuncture and Natural Healing in Zurich.">
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; color: #333; }
+        .lang-switch { text-align: right; margin-bottom: 20px; }
+        .lang-switch a { margin-left: 10px; text-decoration: none; color: #0070f3; font-weight: bold; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="lang-switch">
+        <a href="#de" onclick="switchLang('de')">DE</a> | <a href="#en" onclick="switchLang('en')">EN</a>
+    </div>
+
+    <div id="content-de">
+        <h1>Willkommen beim TAI TCM Blog</h1>
+        <p>Ihre Experten für Akupunktur und Traditionelle Chinesische Medizin in Zürich.</p>
+        <p><i>In Kürze finden Sie hier fachliche Artikel zu TCM.</i></p>
+    </div>
+
+    <div id="content-en" style="display:none;">
+        <h1>Welcome to TAI TCM Blog</h1>
+        <p>Your experts for Acupuncture and Traditional Chinese Medicine in Zurich.</p>
+        <p><i>Professional TCM articles are coming soon.</i></p>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            document.getElementById('content-de').style.display = lang === 'de' ? 'block' : 'none';
+            document.getElementById('content-en').style.display = lang === 'en' ? 'block' : 'none';
+            document.documentElement.lang = lang;
+        }
+    </script>
+</body>
+</html>
