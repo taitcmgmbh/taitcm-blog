@@ -9,10 +9,11 @@
         body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; color: #333; scroll-behavior: smooth; background: #fff; }
         header { background: #f8fbfb; padding: 25px 20px; text-align: center; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 100; }
         .lang-switch { margin-bottom: 10px; font-weight: bold; }
-        .lang-switch a { text-decoration: none; color: var(--tcm-teal); margin: 0 10px; cursor: pointer; border: 1px solid var(--tcm-teal); padding: 2px 8px; border-radius: 4px; }
+        .lang-switch a { text-decoration: none; color: var(--tcm-teal); margin: 0 10px; cursor: pointer; border: 1px solid var(--tcm-teal); padding: 2px 8px; border-radius: 4px; transition: 0.3s; }
+        .lang-switch a:hover { background: var(--tcm-teal); color: #fff; }
         
         nav.category-nav { margin-top: 15px; font-size: 0.8em; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
-        nav.category-nav a { color: var(--tcm-dark); text-decoration: none; background: #fff; border: 1px solid #ddd; padding: 4px 10px; border-radius: 20px; }
+        nav.category-nav a { color: var(--tcm-dark); text-decoration: none; background: #fff; border: 1px solid #ddd; padding: 4px 10px; border-radius: 20px; transition: 0.3s; }
         nav.category-nav a:hover { background: var(--tcm-teal); color: #fff; border-color: var(--tcm-teal); }
 
         .container { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
@@ -180,8 +181,24 @@
             </div>`).join('');
     }
 
-    function switchLang(lang) { render(lang); window.scrollTo(0, 0); }
-    render('de');
+    /** 核心逻辑：切换语言并更新 URL 参数，实现返回不跳语种 **/
+    function switchLang(lang) { 
+        render(lang); 
+        window.scrollTo(0, 0);
+        // 在不刷新页面的情况下，更新网址参数
+        const newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?lang=' + lang;
+        window.history.pushState({path:newurl}, '', newurl);
+    }
+
+    /** 初始化：检查网址参数，决定显示德语还是英语 **/
+    const urlParams = new URLSearchParams(window.location.search);
+    const langParam = urlParams.get('lang');
+
+    if (langParam === 'en') {
+        render('en');
+    } else {
+        render('de');
+    }
 </script>
 </body>
 </html>
