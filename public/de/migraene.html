@@ -7,10 +7,10 @@
         :root { --tcm-teal: #7fbbad; --tcm-dark: #1a5a7a; }
         body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.7; max-width: 850px; margin: 0 auto; padding: 20px; color: #333; }
         
-        /* 图片大小优化：限制最大高度，防止大图刷屏 */
+        /* 图片大小优化：高度限制为 400px，防止过大 */
         .hero-img { 
             width: 100%; 
-            max-height: 450px; 
+            max-height: 400px; 
             object-fit: cover; 
             border-radius: 8px; 
             margin-bottom: 30px; 
@@ -19,10 +19,19 @@
 
         .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: var(--tcm-teal); font-weight: bold; }
         h1 { color: var(--tcm-dark); font-size: 2.2em; border-bottom: 3px solid var(--tcm-teal); padding-bottom: 15px; margin-bottom: 30px; }
-        h2 { color: var(--tcm-dark); margin-top: 40px; font-size: 1.6em; border-left: 5px solid var(--tcm-teal); padding-left: 15px; }
+        h2 { color: var(--tcm-dark); margin-top: 35px; font-size: 1.4em; padding-left: 5px; }
         
-        p { margin-bottom: 15px; }
-        .highlight-box { background: #f0f7f6; padding: 20px; border-radius: 8px; border-left: 4px solid var(--tcm-teal); margin: 25px 0; }
+        /* 统一的绿色背景盒子样式 */
+        .highlight-box { 
+            background: #f0f7f6; 
+            padding: 20px; 
+            border-radius: 8px; 
+            border-left: 4px solid var(--tcm-teal); 
+            margin: 15px 0 25px 0; 
+        }
+        
+        .highlight-box p { margin: 0; }
+        .highlight-box ul { margin: 10px 0 0 20px; padding: 0; }
         
         .cta-section { margin-top: 60px; padding: 40px; background: #f8fbfb; border-radius: 12px; text-align: center; border: 1px solid #e0eeee; }
         .btn-booking { 
@@ -52,26 +61,34 @@
     <h1>Migräne natürlich behandeln – Wege aus dem Schmerz</h1>
 
     <h2>1. Wie versteht die TCM Migräne?</h2>
-    <p>Migräne wird in der Traditionellen Chinesischen Medizin (TCM) als eine tiefgreifende <strong>Störung des Energieflusses (Qi)</strong> betrachtet. Oft ist sie auf ein aufsteigendes Leber-Yang, Blutstagnation oder äußere pathogene Einflüsse zurückzuführen. Dabei spielen Faktoren wie Emotionen, Ernährung und die individuelle Konstitution eine entscheidende Rolle für die Diagnose und Therapie.</p>
+    <div class="highlight-box">
+        <p>Migräne wird in der TCM als eine Störung des Energieflusses betrachtet, oft durch aufsteigendes Leber-Yang, Blutstagnation oder äußere Einflüsse verursacht. Emotionen, Ernährung und Konstitution spielen eine große Rolle.</p>
+    </div>
 
     <h2>2. Hilft Akupunktur bei Migräne?</h2>
     <div class="highlight-box">
-        <strong>Ja, absolut.</strong> Zahlreiche klinische Studien belegen, dass Akupunktur die Häufigkeit und Intensität von Migräneanfällen deutlich reduzieren kann. Dies macht sie zu einer idealen Lösung für Patient:innen, die herkömmliche Schmerzmittel nicht vertragen oder deren Einnahme langfristig vermeiden möchten.
+        <p><strong>Ja, absolut.</strong> Zahlreiche Studien zeigen, dass Akupunktur die Häufigkeit und Intensität von Migräneanfällen deutlich reduzieren kann – ideal für Patient:innen, die Schmerzmittel nicht vertragen oder vermeiden wollen.</p>
     </div>
 
     <h2>3. Wie lange muss ich behandelt werden?</h2>
-    <p>Da Migräne meist eine chronische Erkrankung ist, erfordert die Therapie Geduld. In der Regel empfehlen wir <strong>1–2 Sitzungen pro Woche</strong> über einen Zeitraum von 4–6 Wochen. Die meisten unserer Patient:innen verspüren bereits nach 3–4 Behandlungen eine spürbare Besserung ihrer Symptome.</p>
+    <div class="highlight-box">
+        <p>Migräne ist eine chronische Erkrankung. In der Regel empfehlen wir 1–2 Sitzungen pro Woche über 4–6 Wochen. Viele spüren bereits nach 3–4 Behandlungen eine spürbare Besserung.</p>
+    </div>
 
     <h2>4. Was bietet die TCM noch an?</h2>
-    <p>Neben der klassischen Akupunktur setzen wir auf ein ganzheitliches System zur Stabilisierung Ihres Körpers:</p>
-    <ul>
-        <li><strong>Tuina-Massage & Ohrakupunktur:</strong> Zur sofortigen Entspannung und Schmerzlinderung.</li>
-        <li><strong>Chinesische Kräutertherapie:</strong> Um das innere Gleichgewicht langfristig zu festigen.</li>
-        <li><strong>Lebensstilberatung:</strong> Tipps zur Ernährung und emotionalen Balance.</li>
-    </ul>
+    <div class="highlight-box">
+        <p>Neben Akupunktur helfen auch folgende Methoden, das gesamte System zu stabilisieren:</p>
+        <ul>
+            <li>Tuina-Massage & Ohrakupunktur</li>
+            <li>Chinesische Kräutertherapie</li>
+            <li>Emotionale Balance & Lebensstilberatung</li>
+        </ul>
+    </div>
 
     <h2>5. Kann ich TCM mit Schulmedizin kombinieren?</h2>
-    <p>Ja. Die TCM versteht sich als hervorragende Ergänzung zur westlichen Medizin. Eine kombinierte Behandlung ist in den meisten Fällen nicht nur sicher, sondern auch äußerst sinnvoll, um die bestmöglichen Ergebnisse für Ihre Gesundheit zu erzielen.</p>
+    <div class="highlight-box">
+        <p>Ja. Die TCM ist eine gute Ergänzung zur westlichen Medizin. Eine kombinierte Behandlung ist in den meisten Fällen sicher und sinnvoll – bitte sprechen Sie uns an.</p>
+    </div>
 
     <div class="cta-section">
         <h3>Bereit für ein schmerzfreies Leben?</h3>
