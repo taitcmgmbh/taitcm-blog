@@ -2,158 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TAI TCM GmbH – Traditional Chinese Medicine in Zurich</title>
-    <meta name="description" content="TAI TCM is your trusted Traditional Chinese Medicine clinic in Zurich Oerlikon. We specialize in acupuncture, Tuina massage, and personalized treatments. Recognized by Swiss health insurance (Tariff 590).">
-
-    <link rel="preload" href="../components/header.html" as="fetch" crossorigin>
-    <link rel="preload" href="../components/footer.html" as="fetch" crossorigin>
-
-    <script>
-        window.addEventListener('load', function() {
-            setTimeout(function() {
-                var script = document.createElement('script');
-                script.async = true;
-                script.src = "https://www.googletagmanager.com/gtag/js?id=G-Q7RWQDS859";
-                document.head.appendChild(script);
-
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-Q7RWQDS859');
-            }, 6000); 
-        });
-    </script>
-
+    <title>Migraine Treatment with TCM in Zurich | TAI TCM Blog</title>
     <style>
-        /* 💡 请在此处粘贴您 ../style/style.css 文件中的全部内容 */
-        /* 注意：确保里面的背景图路径是 url("../assets/background.webp") */
-
-        :root {
-            --font-apple: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-                         "Segoe UI", Roboto, Arial, sans-serif;
+        :root { --tcm-teal: #7fbbad; --tcm-dark: #1a5a7a; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.7; max-width: 850px; margin: 0 auto; padding: 20px; color: #333; }
+        
+        /* Image size optimization: height limited to 400px to match German version */
+        .hero-img { 
+            width: 100%; 
+            max-height: 400px; 
+            object-fit: cover; 
+            border-radius: 8px; 
+            margin-bottom: 30px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
-        body, h1, h2, h3, h4, h5, h6, p, li, a, button,
-        input, textarea {
-            font-family: var(--font-apple) !important;
-            font-weight: 400;
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: var(--tcm-teal); font-weight: bold; }
+        h1 { color: var(--tcm-dark); font-size: 2.2em; border-bottom: 3px solid var(--tcm-teal); padding-bottom: 15px; margin-bottom: 30px; }
+        h2 { color: var(--tcm-dark); margin-top: 35px; font-size: 1.4em; padding-left: 5px; }
+        
+        /* Unified green background box style to match German version */
+        .highlight-box { 
+            background: #f0f7f6; 
+            padding: 20px; 
+            border-radius: 8px; 
+            border-left: 4px solid var(--tcm-teal); 
+            margin: 15px 0 25px 0; 
         }
         
-        /* 强制修复 LCP 图片路径，确保加载的是 200KB 的 WebP 而非 2.2MB 的 PNG */
-        .hero-split {
-            background-image: url("../assets/background.webp") !important;
+        .highlight-box p { margin: 0; }
+        .highlight-box ul { margin: 10px 0 0 20px; padding: 0; }
+        
+        .cta-section { margin-top: 60px; padding: 40px; background: #f8fbfb; border-radius: 12px; text-align: center; border: 1px solid #e0eeee; }
+        .btn-booking { 
+            display: inline-block; 
+            background: var(--tcm-teal); 
+            color: white; 
+            padding: 18px 35px; 
+            text-decoration: none; 
+            border-radius: 50px; 
+            font-weight: bold; 
+            font-size: 1.1em; 
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(127, 187, 173, 0.4);
         }
+        .btn-booking:hover { background: var(--tcm-dark); transform: translateY(-2px); box-shadow: 0 6px 15px rgba(26, 90, 122, 0.3); }
+        
+        .footer-meta { margin-top: 50px; padding-top: 30px; border-top: 1px solid #eee; color: #7f8c8d; font-size: 0.95em; }
+        .footer-meta a { color: var(--tcm-dark); text-decoration: none; font-weight: bold; }
     </style>
-
-    <script src="../js/main.js" defer></script>
 </head>
+<body>
 
-<body data-page="home">
-<div class="content-wrapper">
+    <a href="../index.html" class="back-link">← Back to Blog Overview</a>
 
-    <div id="header-placeholder"></div>
-    <script>
-        fetch("../components/header.html")
-            .then(r => {
-                if (!r.ok) throw new Error(`Header fetch failed: ${r.status}`);
-                return r.text();
-            })
-            .then(html => {
-                const el = document.getElementById("header-placeholder");
-                if (el) {
-                    el.innerHTML = html;
-                    // 自动修正 Logo 比例，拿到“最佳实践” 100 分
-                    const logo = el.querySelector('.logo');
-                    if(logo) { logo.width = 192; logo.height = 50; }
-                }
-                if (window.initSiteHeader) window.initSiteHeader();
-            })
-            .catch(err => console.error("Error loading header:", err));
-    </script>
+    <img src="../img/akupunktur-migraene-zuerich.webp" alt="TCM Migraine Treatment Zurich" class="hero-img">
 
-    <main id="main-content">
-        <section class="hero-split">
-            <div class="hero-overlay">
-                <div class="hero-content">
-                    <h1>Welcome to TAI TCM GmbH</h1>
-                    <p>Clinic for Traditional Chinese Medicine, Massage and Acupuncture</p>
-                    <a class="btn-hero" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0jOrw-hPHEO957S6RZcBGwPS0rY0i-FUDVJ6Sfv0rNPMCD3MPv0u5TgITgNzB7ugn0w7aoWx57" target="_blank" rel="noopener">
-                        Book an appointment online
-                    </a>
-                </div>
-            </div>
-        </section>
+    <h1>Natural Migraine Relief – Ways Out of the Pain</h1>
 
-        <div class="footer-box">
-            During treatments I cannot answer phone calls.<br>
-            Please book online.
-        </div>
+    <h2>1. How does TCM understand migraines?</h2>
+    <div class="highlight-box">
+        <p>In Traditional Chinese Medicine (TCM), migraines are viewed as a disturbance of the energy flow (Qi). They are often caused by rising Liver Yang, blood stagnation, or external influences. Emotions, diet, and constitution play a major role in diagnosis and therapy.</p>
+    </div>
 
-        <section class="features features-medical">
-            <div class="feature-column">
-                <h2 class="feature-group-title">Treatment & Medicine</h2>
-                <div class="feature-box">
-                    <h3 class="feature-title">Traditional Chinese Medicine</h3>
-                    <p class="feature-text">Acupuncture, Tuina and herbal therapy – combined with modern medicine and tailored to your individual needs.</p>
-                </div>
-                <div class="feature-box">
-                    <h3 class="feature-title">Holistic TCM approach</h3>
-                    <p class="feature-text">Comprehensive diagnosis, acupuncture, Tuina and herbs – not only treating symptoms, but addressing the root causes.</p>
-                </div>
-            </div>
+    <h2>2. Does acupuncture help with migraines?</h2>
+    <div class="highlight-box">
+        <p><strong>Yes, absolutely.</strong> Numerous studies show that acupuncture can significantly reduce the frequency and intensity of migraine attacks – ideal for patients who do not tolerate or wish to avoid long-term use of painkillers.</p>
+    </div>
 
-            <div class="feature-column">
-                <h2 class="feature-group-title">Experience & Trust</h2>
-                <div class="feature-box">
-                    <h3 class="feature-title">Over 30 years of experience</h3>
-                    <p class="feature-text">Extensive clinical experience in treating pain, allergies, as well as internal and gynecological conditions.</p>
-                </div>
-                <div class="feature-box">
-                    <h3 class="feature-title">Health insurance reimbursement</h3>
-                    <p class="feature-text">Recognised by many Swiss supplementary insurances (Tariff 590).</p>
-                </div>
-            </div>
-        </section>
+    <h2>3. How long do I need to be treated?</h2>
+    <div class="highlight-box">
+        <p>Migraine is typically a chronic condition. Generally, we recommend <strong>1–2 sessions per week</strong> for a period of 4–6 weeks. Most of our patients notice a significant improvement in their symptoms after just 3–4 treatments.</p>
+    </div>
 
-        <section class="clinic-photos" aria-label="Clinic impressions">
-            <div class="clinic-photos__header">
-                <h2>Our treatment rooms</h2>
-                <p>A calm, clean and professional environment for your treatment.</p>
-            </div>
-            <div class="clinic-photos__grid clinic-photos__grid--two">
-                <figure class="clinic-photo">
-                    <button class="clinic-photo__btn" type="button" data-img="../assets/Akupunktur-Raum-Oerlikon.webp" data-alt="Treatment room 1">
-                        <img src="../assets/Akupunktur-Raum-Oerlikon.webp" alt="Treatment room 1" width="600" height="400" loading="lazy">
-                    </button>
-                </figure>
-                <figure class="clinic-photo">
-                    <button class="clinic-photo__btn" type="button" data-img="../assets/Massage-Raum-Oerlikon.webp" data-alt="Treatment room 2">
-                        <img src="../assets/Massage-Raum-Oerlikon.webp" alt="Treatment room 2" width="600" height="400" loading="lazy">
-                    </button>
-                </figure>
-            </div>
-        </section>
+    <h2>4. What else does TCM offer?</h2>
+    <div class="highlight-box">
+        <p>In addition to classic acupuncture, we rely on a holistic system to stabilize your body:</p>
+        <ul>
+            <li>Tuina Massage & Ear Acupuncture</li>
+            <li>Chinese Herbal Therapy</li>
+            <li>Emotional Balance & Lifestyle Counseling</li>
+        </ul>
+    </div>
 
-        <section class="testimonials">
-            <h2>Testimonials</h2>
-            <p class="subtitle">What our patients say</p>
-            <div class="testimonial-grid">
-                <div class="card"><p class="stars">★★★★★</p><p>„ Ein grosses Lob an Herr Tai! ...“</p><p class="author">— Marija D.</p></div>
-                <div class="card"><p class="stars">★★★★★</p><p>„ Ich war schon mit verschiedenen Problemen bei Hr. Tai ...“</p><p class="author">— Karin H.</p></div>
-            </div>
-        </section>
-    </main>
+    <h2>5. Can I combine TCM with Western medicine?</h2>
+    <div class="highlight-box">
+        <p>Yes. TCM is an excellent supplement to Western medicine. Combined treatment is not only safe in most cases but also highly beneficial for achieving the best possible results for your health.</p>
+    </div>
 
-    <div id="footer-placeholder"></div>
-    <script>
-        fetch("../components/footer.html")
-            .then(r => r.text())
-            .then(html => {
-                document.getElementById("footer-placeholder").innerHTML = html;
-            });
-    </script>
+    <div class="cta-section">
+        <h3>Ready for a pain-free life?</h3>
+        <p>Book your appointment conveniently online via our Google Calendar.</p>
+        <br>
+        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0jOrw-hPHEO957S6RZcBGwPS0rY0i-FUDVJ6Sfv0rNPMCD3MPv0u5TgITgNzB7ugn0w7aoWx57" class="btn-booking" target="_blank">Book Appointment Online</a>
+    </div>
 
-</div> 
+    <div class="footer-meta">
+        <p>Find more information on our main website: <a href="https://taitcm.ch" target="_blank">taitcm.ch</a></p>
+        <p>Expertise in Traditional Chinese Medicine | Zurich</p>
+    </div>
+
 </body>
 </html>
