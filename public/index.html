@@ -170,8 +170,8 @@
             <div class="category-group">
                 <h2 class="category-title" id="${cat.id}">${cat.name}</h2>
                 <div class="grid">${cat.items.map(item => `
-                    <a href="${item.url}" class="card">
-                        <img src="img/${item.img}" alt="${item.name}" loading="lazy">
+                    <a href="/${item.url}" class="card">
+                        <img src="/img/${item.img}" alt="${item.name}" loading="lazy">
                         <div class="card-body">
                             <h3>${item.name}</h3>
                             <p>${item.desc}</p>
