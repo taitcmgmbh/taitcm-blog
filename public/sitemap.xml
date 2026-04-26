@@ -12,126 +12,641 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/"/>
   </url>
 
-  <!-- Deutsch -->
+  <!-- Neurologische Erkrankungen -->
   <url>
-    <loc>https://blog.taitcm.ch/de/akne.html</loc>
+    <loc>https://blog.taitcm.ch/de/migraene.html</loc>
     <lastmod>2026-04-26</lastmod>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/migraene.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/migraine.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/migraene.html"/>
   </url>
 
   <url>
-    <loc>https://blog.taitcm.ch/de/arthritis.html</loc>
+    <loc>https://blog.taitcm.ch/en/migraine.html</loc>
     <lastmod>2026-04-26</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://blog.taitcm.ch/de/bronchitis.html</loc>
-    <lastmod>2026-04-26</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://blog.taitcm.ch/de/rueckenschmerzen.html</loc>
-    <lastmod>2026-04-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/migraene.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/migraine.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/migraene.html"/>
   </url>
 
   <url>
     <loc>https://blog.taitcm.ch/de/kopfschmerzen.html</loc>
     <lastmod>2026-04-26</lastmod>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://blog.taitcm.ch/de/heuschnupfen.html</loc>
-    <lastmod>2026-04-26</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://blog.taitcm.ch/de/schlafstoerung.html</loc>
-    <lastmod>2026-04-26</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://blog.taitcm.ch/de/magenleiden.html</loc>
-    <lastmod>2026-04-26</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://blog.taitcm.ch/de/depression.html</loc>
-    <lastmod>2026-04-26</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://blog.taitcm.ch/de/ekzem.html</loc>
-    <lastmod>2026-04-26</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- English -->
-  <url>
-    <loc>https://blog.taitcm.ch/en/acne.html</loc>
-    <lastmod>2026-04-26</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://blog.taitcm.ch/en/arthritis.html</loc>
-    <lastmod>2026-04-26</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://blog.taitcm.ch/en/bronchitis.html</loc>
-    <lastmod>2026-04-26</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://blog.taitcm.ch/en/back-pain.html</loc>
-    <lastmod>2026-04-26</lastmod>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/kopfschmerzen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/headaches.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/kopfschmerzen.html"/>
   </url>
 
   <url>
     <loc>https://blog.taitcm.ch/en/headaches.html</loc>
     <lastmod>2026-04-26</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/kopfschmerzen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/headaches.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/kopfschmerzen.html"/>
   </url>
 
   <url>
-    <loc>https://blog.taitcm.ch/en/hay-fever.html</loc>
+    <loc>https://blog.taitcm.ch/de/schwindel.html</loc>
     <lastmod>2026-04-26</lastmod>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/schwindel.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/dizziness.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/schwindel.html"/>
   </url>
 
   <url>
-    <loc>https://blog.taitcm.ch/en/sleep-disorders.html</loc>
+    <loc>https://blog.taitcm.ch/en/dizziness.html</loc>
     <lastmod>2026-04-26</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/schwindel.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/dizziness.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/schwindel.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/tinnitus.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/tinnitus.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/tinnitus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/tinnitus.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/tinnitus.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/tinnitus.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/tinnitus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/tinnitus.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/trigeminusneuralgie.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/trigeminusneuralgie.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/trigeminal-neuralgia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/trigeminusneuralgie.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/trigeminal-neuralgia.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/trigeminusneuralgie.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/trigeminal-neuralgia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/trigeminusneuralgie.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/schlaganfall-laehmung.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/schlaganfall-laehmung.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/post-stroke-paralysis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/schlaganfall-laehmung.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/post-stroke-paralysis.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/schlaganfall-laehmung.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/post-stroke-paralysis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/schlaganfall-laehmung.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/blasenentleerungsstoerung.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/blasenentleerungsstoerung.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/bladder-emptying-disorder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/blasenentleerungsstoerung.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/bladder-emptying-disorder.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/blasenentleerungsstoerung.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/bladder-emptying-disorder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/blasenentleerungsstoerung.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/blasenschwaeche.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/blasenschwaeche.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/bladder-weakness.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/blasenschwaeche.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/bladder-weakness.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/blasenschwaeche.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/bladder-weakness.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/blasenschwaeche.html"/>
+  </url>
+
+  <!-- Orthopädische Erkrankungen -->
+  <url>
+    <loc>https://blog.taitcm.ch/de/lumbalgie.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/lumbalgie.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/lumbago.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/lumbalgie.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/lumbago.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/lumbalgie.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/lumbago.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/lumbalgie.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/rueckenschmerzen.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/rueckenschmerzen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/back-pain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/rueckenschmerzen.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/back-pain.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/rueckenschmerzen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/back-pain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/rueckenschmerzen.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/ischiasbeschwerden.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/ischiasbeschwerden.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/sciatica.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/ischiasbeschwerden.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/sciatica.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/ischiasbeschwerden.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/sciatica.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/ischiasbeschwerden.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/nacken-schulter-arm-syndrom.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/nacken-schulter-arm-syndrom.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/neck-shoulder-arm-syndrome.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/nacken-schulter-arm-syndrom.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/neck-shoulder-arm-syndrome.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/nacken-schulter-arm-syndrom.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/neck-shoulder-arm-syndrome.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/nacken-schulter-arm-syndrom.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/tennis-arm.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/tennis-arm.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/tennis-elbow.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/tennis-arm.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/tennis-elbow.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/tennis-arm.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/tennis-elbow.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/tennis-arm.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/arthritis.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/arthritis.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/arthritis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/arthritis.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/arthritis.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/arthritis.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/arthritis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/arthritis.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/rheuma.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/rheuma.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/rheumatism.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/rheuma.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/rheumatism.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/rheuma.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/rheumatism.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/rheuma.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/achillessehnen-symptome.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/achillessehnen-symptome.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/achilles-tendon.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/achillessehnen-symptome.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/achilles-tendon.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/achillessehnen-symptome.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/achilles-tendon.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/achillessehnen-symptome.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/fersenschmerz.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/fersenschmerz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/heel-pain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/fersenschmerz.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/heel-pain.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/fersenschmerz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/heel-pain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/fersenschmerz.html"/>
+  </url>
+
+  <!-- Innere Krankheiten -->
+  <url>
+    <loc>https://blog.taitcm.ch/de/bronchitis.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/bronchitis.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/bronchitis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/bronchitis.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/bronchitis.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/bronchitis.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/bronchitis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/bronchitis.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/harnwegsinfekte.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/harnwegsinfekte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/urinary-tract-infection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/harnwegsinfekte.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/urinary-tract-infection.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/harnwegsinfekte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/urinary-tract-infection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/harnwegsinfekte.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/herzrhythmusstoerungen.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/herzrhythmusstoerungen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/arrhythmia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/herzrhythmusstoerungen.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/arrhythmia.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/herzrhythmusstoerungen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/arrhythmia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/herzrhythmusstoerungen.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/bluthochdruck.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/bluthochdruck.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/hypertension.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/bluthochdruck.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/hypertension.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/bluthochdruck.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/hypertension.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/bluthochdruck.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/magenleiden.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/magenleiden.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/digestive-disorders.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/magenleiden.html"/>
   </url>
 
   <url>
     <loc>https://blog.taitcm.ch/en/digestive-disorders.html</loc>
     <lastmod>2026-04-26</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/magenleiden.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/digestive-disorders.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/magenleiden.html"/>
+  </url>
+
+  <!-- Gynäkologische Erkrankungen -->
+  <url>
+    <loc>https://blog.taitcm.ch/de/menstruationsbeschwerden.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/menstruationsbeschwerden.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/menstrual-discomfort.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/menstruationsbeschwerden.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/menstrual-discomfort.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/menstruationsbeschwerden.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/menstrual-discomfort.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/menstruationsbeschwerden.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/schwangerschaftsbeschwerden.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/schwangerschaftsbeschwerden.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/pregnancy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/schwangerschaftsbeschwerden.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/pregnancy.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/schwangerschaftsbeschwerden.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/pregnancy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/schwangerschaftsbeschwerden.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/unfruchtbarkeit.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/unfruchtbarkeit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/infertility.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/unfruchtbarkeit.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/infertility.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/unfruchtbarkeit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/infertility.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/unfruchtbarkeit.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/wechseljahresbeschwerden.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/wechseljahresbeschwerden.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/menopause.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/wechseljahresbeschwerden.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/menopause.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/wechseljahresbeschwerden.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/menopause.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/wechseljahresbeschwerden.html"/>
+  </url>
+
+  <!-- Psychische Erkrankungen -->
+  <url>
+    <loc>https://blog.taitcm.ch/de/depression.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/depression.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/depression.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/depression.html"/>
   </url>
 
   <url>
     <loc>https://blog.taitcm.ch/en/depression.html</loc>
     <lastmod>2026-04-26</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/depression.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/depression.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/depression.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/schlafstoerung.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/schlafstoerung.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/sleep-disorders.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/schlafstoerung.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/sleep-disorders.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/schlafstoerung.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/sleep-disorders.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/schlafstoerung.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/burn-out-syndrom.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/burn-out-syndrom.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/burnout.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/burn-out-syndrom.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/burnout.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/burn-out-syndrom.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/burnout.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/burn-out-syndrom.html"/>
+  </url>
+
+  <!-- Allergie / Hauterkrankungen -->
+  <url>
+    <loc>https://blog.taitcm.ch/de/heuschnupfen.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/heuschnupfen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/hay-fever.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/heuschnupfen.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/hay-fever.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/heuschnupfen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/hay-fever.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/heuschnupfen.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/ekzem.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/ekzem.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/eczema.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/ekzem.html"/>
   </url>
 
   <url>
     <loc>https://blog.taitcm.ch/en/eczema.html</loc>
     <lastmod>2026-04-26</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/ekzem.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/eczema.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/ekzem.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/akne.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/akne.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/acne.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/akne.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/acne.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/akne.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/acne.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/akne.html"/>
+  </url>
+
+  <!-- Sonstiges -->
+  <url>
+    <loc>https://blog.taitcm.ch/de/nikotinentwoehnung.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/nikotinentwoehnung.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/smoking-cessation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/nikotinentwoehnung.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/smoking-cessation.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/nikotinentwoehnung.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/smoking-cessation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/nikotinentwoehnung.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/uebergewicht.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/uebergewicht.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/overweight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/uebergewicht.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/overweight.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/uebergewicht.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/overweight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/uebergewicht.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/immunsystem.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/immunsystem.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/immune-system.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/immunsystem.html"/>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/immune-system.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/de/immunsystem.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/en/immune-system.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/de/immunsystem.html"/>
   </url>
 
 </urlset>
