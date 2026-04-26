@@ -1,0 +1,37 @@
+# TAI TCM Blog
+
+TAI TCM Blog provides educational articles about Traditional Chinese Medicine, acupuncture, Tuina massage and Chinese herbal medicine.
+
+Main website: https://www.taitcm.ch/
+Blog: https://blog.taitcm.ch/
+Sitemap: https://blog.taitcm.ch/sitemap.xml
+
+Publisher: TAI TCM GmbH
+Location: Schaffhauserstrasse 359, 8050 Zürich, Switzerland
+Practitioner: Xinbo Tai
+Professional focus: Traditional Chinese Medicine, acupuncture, Tuina, Chinese herbal therapy
+Languages: German and English
+
+## Main topics
+
+- Acupuncture in Zurich
+- Traditional Chinese Medicine
+- Tuina massage
+- Back pain and neck pain
+- Migraine and headaches
+- Allergies and hay fever
+- Sleep disorders
+- Digestive disorders
+- Gynecological complaints
+- Skin conditions
+- Stress and burnout
+
+## Important German articles
+
+- Akne: https://blog.taitcm.ch/de/akne.html
+- Rückenschmerzen: https://blog.taitcm.ch/de/rueckenschmerzen.html
+- Migräne: https://blog.taitcm.ch/de/migraene.html
+- Heuschnupfen: https://blog.taitcm.ch/de/heuschnupfen.html
+- Schlafstörung: https://blog.taitcm.ch/de/schlafstoerung.html
+- Bronchitis und Asthma: https://blog.taitcm.ch/de/bronchitis.html
+- Arthritis und Arthrose: https://blog.taitcm.ch/de/arthritis.html
