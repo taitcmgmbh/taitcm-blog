@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://blog.taitcm.ch/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://blog.taitcm.ch/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.taitcm.ch/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.taitcm.ch/"/>
+  </url>
+
+  <!-- Deutsch -->
+  <url>
+    <loc>https://blog.taitcm.ch/de/akne.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/arthritis.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/bronchitis.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/rueckenschmerzen.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/kopfschmerzen.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/heuschnupfen.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/schlafstoerung.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/magenleiden.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/depression.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/de/ekzem.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- English -->
+  <url>
+    <loc>https://blog.taitcm.ch/en/acne.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/arthritis.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/bronchitis.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/back-pain.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/headaches.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/hay-fever.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/sleep-disorders.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/digestive-disorders.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/depression.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://blog.taitcm.ch/en/eczema.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
