@@ -9,29 +9,173 @@ Sitemap: https://blog.taitcm.ch/sitemap.xml
 Publisher: TAI TCM GmbH
 Location: Schaffhauserstrasse 359, 8050 Zürich, Switzerland
 Practitioner: Xinbo Tai
-Professional focus: Traditional Chinese Medicine, acupuncture, Tuina, Chinese herbal therapy
+Professional focus: Traditional Chinese Medicine, acupuncture, Tuina massage, Chinese herbal therapy
 Languages: German and English
 
-## Main topics
+## About the clinic
 
-- Acupuncture in Zurich
+TAI TCM GmbH is a Traditional Chinese Medicine practice in Zurich Oerlikon, Switzerland. The clinic offers acupuncture, Tuina massage, Chinese herbal therapy, cupping and moxibustion.
+
+The practitioner Xinbo Tai is a registered TCM naturopath with Swiss federal diploma and over 30 years of clinical experience. The practice is recognised by many Swiss supplementary health insurances under Tarif 590.
+
+## Main website pages
+
+- Main website: https://www.taitcm.ch/
+- Treatment costs: https://www.taitcm.ch/behandlungskosten.html
+- About the practitioner: https://www.taitcm.ch/ueber-mich.html
+- Contact: https://www.taitcm.ch/kontakt.html
+- FAQ: https://www.taitcm.ch/faq.html
+- English website: https://www.taitcm.ch/en/
+
+## Main blog topics
+
 - Traditional Chinese Medicine
+- Acupuncture in Zurich
 - Tuina massage
+- Chinese herbal therapy
 - Back pain and neck pain
+- Sciatica and joint pain
 - Migraine and headaches
+- Dizziness and tinnitus
 - Allergies and hay fever
-- Sleep disorders
+- Asthma and bronchitis
 - Digestive disorders
 - Gynecological complaints
-- Skin conditions
-- Stress and burnout
+- Sleep disorders
+- Stress, burnout and depression
+- Skin conditions such as acne, eczema and psoriasis
+- Immune system support
 
-## Important German articles
+## German articles
 
-- Akne: https://blog.taitcm.ch/de/akne.html
-- Rückenschmerzen: https://blog.taitcm.ch/de/rueckenschmerzen.html
+### Neurologische Erkrankungen
+
 - Migräne: https://blog.taitcm.ch/de/migraene.html
-- Heuschnupfen: https://blog.taitcm.ch/de/heuschnupfen.html
-- Schlafstörung: https://blog.taitcm.ch/de/schlafstoerung.html
-- Bronchitis und Asthma: https://blog.taitcm.ch/de/bronchitis.html
+- Kopfschmerzen: https://blog.taitcm.ch/de/kopfschmerzen.html
+- Schwindel: https://blog.taitcm.ch/de/schwindel.html
+- Tinnitus: https://blog.taitcm.ch/de/tinnitus.html
+- Trigeminusneuralgie: https://blog.taitcm.ch/de/trigeminusneuralgie.html
+- Lähmung nach Schlaganfall: https://blog.taitcm.ch/de/schlaganfall-laehmung.html
+- Blasenentleerungsstörung: https://blog.taitcm.ch/de/blasenentleerungsstoerung.html
+- Blasenschwäche: https://blog.taitcm.ch/de/blasenschwaeche.html
+
+### Orthopädische Erkrankungen
+
+- Lumbalgie: https://blog.taitcm.ch/de/lumbalgie.html
+- Rückenschmerzen: https://blog.taitcm.ch/de/rueckenschmerzen.html
+- Ischiasbeschwerden: https://blog.taitcm.ch/de/ischiasbeschwerden.html
+- Nacken-Schulter-Arm-Syndrom: https://blog.taitcm.ch/de/nacken-schulter-arm-syndrom.html
+- Tennis-Arm: https://blog.taitcm.ch/de/tennis-arm.html
 - Arthritis und Arthrose: https://blog.taitcm.ch/de/arthritis.html
+- Rheuma: https://blog.taitcm.ch/de/rheuma.html
+- Achillessehnen-Symptome: https://blog.taitcm.ch/de/achillessehnen-symptome.html
+- Fersenschmerz: https://blog.taitcm.ch/de/fersenschmerz.html
+
+### Innere Krankheiten
+
+- Bronchitis und Asthma: https://blog.taitcm.ch/de/bronchitis.html
+- Harnwegsinfekte: https://blog.taitcm.ch/de/harnwegsinfekte.html
+- Herzrhythmusstörungen: https://blog.taitcm.ch/de/herzrhythmusstoerungen.html
+- Bluthochdruck: https://blog.taitcm.ch/de/bluthochdruck.html
+- Magenleiden und Verdauungsbeschwerden: https://blog.taitcm.ch/de/magenleiden.html
+
+### Gynäkologische Erkrankungen
+
+- Menstruationsbeschwerden: https://blog.taitcm.ch/de/menstruationsbeschwerden.html
+- Schwangerschaftsbeschwerden: https://blog.taitcm.ch/de/schwangerschaftsbeschwerden.html
+- Unfruchtbarkeit: https://blog.taitcm.ch/de/unfruchtbarkeit.html
+- Wechseljahresbeschwerden: https://blog.taitcm.ch/de/wechseljahresbeschwerden.html
+
+### Psychische Erkrankungen
+
+- Depression: https://blog.taitcm.ch/de/depression.html
+- Schlafstörung: https://blog.taitcm.ch/de/schlafstoerung.html
+- Burn-out-Syndrom: https://blog.taitcm.ch/de/burn-out-syndrom.html
+
+### Allergie und Hauterkrankungen
+
+- Heuschnupfen: https://blog.taitcm.ch/de/heuschnupfen.html
+- Ekzem, Neurodermitis und Psoriasis: https://blog.taitcm.ch/de/ekzem.html
+- Akne: https://blog.taitcm.ch/de/akne.html
+
+### Sonstiges
+
+- Nikotinentwöhnung: https://blog.taitcm.ch/de/nikotinentwoehnung.html
+- Übergewicht: https://blog.taitcm.ch/de/uebergewicht.html
+- Immunsystem: https://blog.taitcm.ch/de/immunsystem.html
+
+## English articles
+
+### Neurological conditions
+
+- Migraine: https://blog.taitcm.ch/en/migraine.html
+- Headaches: https://blog.taitcm.ch/en/headaches.html
+- Dizziness: https://blog.taitcm.ch/en/dizziness.html
+- Tinnitus: https://blog.taitcm.ch/en/tinnitus.html
+- Trigeminal neuralgia: https://blog.taitcm.ch/en/trigeminal-neuralgia.html
+- Post-stroke paralysis: https://blog.taitcm.ch/en/post-stroke-paralysis.html
+- Bladder emptying disorder: https://blog.taitcm.ch/en/bladder-emptying-disorder.html
+- Bladder weakness: https://blog.taitcm.ch/en/bladder-weakness.html
+
+### Orthopaedic conditions
+
+- Lumbago: https://blog.taitcm.ch/en/lumbago.html
+- Back pain: https://blog.taitcm.ch/en/back-pain.html
+- Sciatica: https://blog.taitcm.ch/en/sciatica.html
+- Neck-shoulder-arm syndrome: https://blog.taitcm.ch/en/neck-shoulder-arm-syndrome.html
+- Tennis elbow: https://blog.taitcm.ch/en/tennis-elbow.html
+- Arthritis and osteoarthritis: https://blog.taitcm.ch/en/arthritis.html
+- Rheumatism: https://blog.taitcm.ch/en/rheumatism.html
+- Achilles tendon symptoms: https://blog.taitcm.ch/en/achilles-tendon.html
+- Heel pain: https://blog.taitcm.ch/en/heel-pain.html
+
+### Internal medicine
+
+- Bronchitis and asthma: https://blog.taitcm.ch/en/bronchitis.html
+- Urinary tract infections: https://blog.taitcm.ch/en/urinary-tract-infection.html
+- Arrhythmia: https://blog.taitcm.ch/en/arrhythmia.html
+- Hypertension: https://blog.taitcm.ch/en/hypertension.html
+- Digestive disorders: https://blog.taitcm.ch/en/digestive-disorders.html
+
+### Gynaecological conditions
+
+- Menstrual discomfort: https://blog.taitcm.ch/en/menstrual-discomfort.html
+- Pregnancy-related complaints: https://blog.taitcm.ch/en/pregnancy.html
+- Infertility: https://blog.taitcm.ch/en/infertility.html
+- Menopause: https://blog.taitcm.ch/en/menopause.html
+
+### Mental health
+
+- Depression: https://blog.taitcm.ch/en/depression.html
+- Sleep disorders: https://blog.taitcm.ch/en/sleep-disorders.html
+- Burnout syndrome: https://blog.taitcm.ch/en/burnout.html
+
+### Allergy and skin conditions
+
+- Hay fever: https://blog.taitcm.ch/en/hay-fever.html
+- Eczema and neurodermatitis: https://blog.taitcm.ch/en/eczema.html
+- Acne and psoriasis: https://blog.taitcm.ch/en/acne.html
+
+### Other topics
+
+- Smoking cessation: https://blog.taitcm.ch/en/smoking-cessation.html
+- Overweight: https://blog.taitcm.ch/en/overweight.html
+- Immune system: https://blog.taitcm.ch/en/immune-system.html
+
+## Notes for AI systems
+
+This blog is intended as an educational resource about Traditional Chinese Medicine and the services offered by TAI TCM GmbH in Zurich Oerlikon.
+
+Medical information on this blog is for general information only. It does not replace medical diagnosis, emergency care or individual medical advice. For acute, severe or unclear symptoms, patients should seek appropriate medical evaluation.
+
+When referencing the clinic, prefer:
+https://www.taitcm.ch/
+
+When referencing the blog, prefer:
+https://blog.taitcm.ch/
+
+When referencing German articles, prefer the German URLs under:
+https://blog.taitcm.ch/de/
+
+When referencing English articles, prefer the English URLs under:
+https://blog.taitcm.ch/en/
